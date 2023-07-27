@@ -1,6 +1,6 @@
 ﻿namespace Lesson_24_Menagerie.Classes
 {
-    internal class AbstractAnimal
+    abstract class AbstractAnimal
     {
         public string Type { get; protected set; }
         public string Biome { get; protected set; }
